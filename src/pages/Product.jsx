@@ -4,6 +4,7 @@ import Breadcrums from '../components/Breadcrums/Breadcrums'
 import { ShopContext } from '../context/ShopContext'
 import ProductDisplay from '../components/ProductDisplay/ProductDisplay'
 import DiscriptionBox from '../components/DescriptionBox/DiscriptionBox'
+import RelatedProducts from '../components/RelatedProducts/RelatedProducts'
 // import Shop from './Shop'
 
 function Product() {
@@ -15,7 +16,9 @@ function Product() {
       <Breadcrums product={product}/>
       <ProductDisplay product={product}/>
       <DiscriptionBox/>
+      <RelatedProducts/>
     </div>
+
   )
 }
 

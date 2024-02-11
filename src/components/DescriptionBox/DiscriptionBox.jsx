@@ -1,5 +1,5 @@
 import React from 'react'
-import "./DescriptionBox.css"
+import "./DiscriptionBox.css"
 
 function DiscriptionBox() {
   return (
@@ -13,7 +13,12 @@ function DiscriptionBox() {
             </div>
         </div>
         <div className="descriptionbox-description">
-            
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+               Deleniti expedita pariatur minus reprehenderit vel quibusdam ipsam esse delectus ad cupiditate.
+                Illo eos optio eius minima. lore14
+               </p>
+
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, vel possimus sunt quis placeat ratione rem labore vero fugiat ad facilis iure hic natus et illo recusandae. Eaque, cumque eveniet?</p>
         </div>
     </div>
   )

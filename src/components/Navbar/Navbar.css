@@ -35,6 +35,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+        color: #626262;
     gap: 3px;
     cursor: pointer;
 }
